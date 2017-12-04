@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+    font-family: "marugo";
+    src: url("/fonts/marugo.ttf") format('truetype');
+    
+    
+}
+
+.section { 
+	text-align: center;
+    font-family: "marugo";
+}
+
+
+.toptitle{
+    font-size: 48px;
+    border-bottom: 5px #fce38a solid;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.topdescription{
+    font-size: 12px;
+}
+
+.scroll-icon {
+	position: absolute;
+ 	left: 50%;
+  bottom: 30px;
+  padding: 0 10px;
+  	-webkit-transform: translateX(-50%);
+  	    -ms-transform: translateX(-50%);
+  	        transform: translateX(-50%);
+}
+
+.left{
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+.logo{
+    margin: 0 20px 20px;
+}
+
+.btn{
+    background-color: #fce38a;
+    border: 1px solid #fce38a;
+    padding: 5px 60px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: "marugo";
+    border-radius: 10px;
+}
+
+.right{
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.subtitle{
+    font-size: 20px;
+    margin: 50px 0 20px;
+    width: 300px;
+}
+
+.description{
+    font-size: 14px;
+    width: 300px;
+}
+
+
+.section_wrraper{
+    display: inline-block;
+}
+
+.section2{
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+}
+
+.filter{
+    background-color: rgba(255,255,255,0.8);
+    width: 800px;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.in{
+    display: inline-block;
+}
+
+
