@@ -1,0 +1,266 @@
+@media screen and (max-width: 1200px) {
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    #header {
+        padding: 16px 0 16px;
+    }
+
+    #header .wrap {
+        padding: 0;
+    }
+
+    .wrap {
+        width: auto;
+        overflow: hidden;
+    }
+
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #header #logo img {
+        vertical-align: top;
+    }
+
+    #header #header-nav {
+        margin-right: 20px;
+    }
+
+    #header #header-nav li {
+        margin-left: 20px;
+    }
+
+    .hidden-tab {
+        display: none !important;
+    }
+
+    #header form {
+        width: 220px;
+    }
+
+    #header-menu-tog {
+        display: block;
+        float: left;
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    #gnav {
+        display: none;
+    }
+    
+    #gnav.active {
+    display: block;
+}
+
+    .wrap {
+        width: auto;
+        overflow: hidden;
+    }
+
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer-sns {
+        margin-right: 20px;
+    }
+
+    .footer-logo {
+        right: 20px;
+    }
+
+    footer {
+        height: 567px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    footer .footer-sp .widget_recent_entries a,
+    footer .footer-sp .widget_archive a,
+    footer .footer-sp .widget_categories a,
+    footer .footer-sp .widget_meta a,
+    footer .footer-sp .widget_views a,
+    footer .footer-sp .widget_pages a {
+        padding: 0;
+        background: none;
+    }
+
+    #header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        padding: 6px 0;
+        top: 0;
+    }
+
+    .post-loop-wrap,
+    .post-content,
+    .wrap {
+        overflow: hidden;
+    }
+
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #header #logo {
+        float: none;
+        text-align: center;
+    }
+
+    #header #logo img {
+        height: 45px;
+    }
+
+    h1 {
+        font-size: 22px;
+        clear: both;
+    }
+
+    #header #header-right {
+        display: none;
+    }
+
+    #header-menu-tog {
+        display: inline-block;
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        float: none;
+    }
+
+    #gnav {
+        margin: 80px 2% 0px;
+        border: 1px solid #cccccc;
+        padding: 10px;
+    }
+
+    .post-loop-wrap,
+    .post-content,
+    .wrap {
+        overflow: hidden;
+    }
+
+    .wrap,
+    .one-column #content .wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #footer .wrap {
+        padding-top: 15px;
+    }
+
+    #footer-left {
+        display: none;
+    }
+
+    #footer-right {
+        position: relative;
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .footer-sns {
+        width: 300px;
+        text-align: center;
+    }
+
+    .footer-sns li {
+        margin: 0 10px;
+    }
+
+    .fb-widget {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-sp {
+        margin: 15px 0 30px;
+    }
+
+    .hidden-pc {
+        display: block;
+    }
+
+    footer .footer-sp .widgettitle {
+        position: relative;
+        text-align: center;
+    }
+
+    .footer-logo {
+        position: relative;
+        width: 200px;
+        right: auto;
+        margin: 0 auto;
+    }
+
+    footer .footer-sp .widgettitle span {
+        position: relative;
+        display: inline-block;
+        margin: 0 2.5em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    footer .footer-sp .widgettitle span::before {
+        right: 100%;
+    }
+
+    footer .footer-sp .widgettitle span::before,
+    footer .footer-sp .widgettitle span::after {
+        position: absolute;
+        top: 50%;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #333;
+    }
+
+    footer .footer-sp ul {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto 0;
+    }
+
+    footer .footer-sp ul li {
+        margin: 8px 0;
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 8px 0;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+}
+
+
+@media screen and ( max-width:479px) {}
