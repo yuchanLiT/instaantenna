@@ -223,7 +223,7 @@ span.scroll {
 .section {
     text-align: center;
     font-family: "marugo";
-    height: 450px;
+    margin-bottom: 150px;
 }
 
 .section1{
@@ -286,9 +286,14 @@ span.scroll {
     display: inline-block;
     overflow: hidden;
     background-size: cover;
-    height: 350px;
 }
 
+.filter {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px 0;
+}
 /*ここから*/
 
 .footer_wrapper {
