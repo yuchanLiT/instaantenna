@@ -59,10 +59,10 @@
     #gnav {
         display: none;
     }
-    
+
     #gnav.active {
-    display: block;
-}
+        display: block;
+    }
 
     .wrap {
         width: auto;
@@ -86,11 +86,189 @@
     footer {
         height: 567px;
     }
+
+    a.scroll {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        padding-top: 60px;
+        letter-spacing: .1em;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        transition: opacity .3s;
+    }
+
+    span.scroll {
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb 1.5s infinite;
+        animation: sdb 1.5s infinite;
+        box-sizing: border-box;
+    }
+
+    @-webkit-keyframes sdb {
+        0% {
+            -webkit-transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    @keyframes sdb {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+
+    .section {
+        text-align: center;
+        font-family: "marugo";
+        margin-bottom: 150px;
+    }
+
+    .section1 {
+        text-align: center;
+        padding: 250px 0 200px;
+    }
+
+    .toptitle {
+        font-size: 40px;
+        border-bottom: 3px #fce38a solid;
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    .topdescription {
+        width: 300px;
+        font-size: 12px;
+        margin: 50px auto 0;
+    }
+
+    .left {
+        display: inline-block;
+        width: 200px;
+        float: none;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .section2 img {
+        margin: 0;
+    }
+
+    .btn1 {
+        display: none;
+    }
+
+    .btn2 {
+        display: inline-block;
+        background-color: #fce38a;
+        border: 1px solid #fce38a;
+        padding: 5px 60px;
+        text-decoration: none;
+        color: #000;
+        font-family: "marugo";
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .description {
+        padding-bottom: 30px;
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .section2 {
+        display: inline-block;
+        overflow: hidden;
+        background-size: cover;
+        width: 75%;
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .filter {
+        background-color: rgba(255, 255, 255, 0.8);
+        display: table-cell;
+        vertical-align: middle;
+        padding: 50px 0;
+        width: 1500px;
+    }
+
+    #pc_footer {
+        display: none;
+    }
+
+    .phone_footer {
+        display: block;
+    }
+
+    .right {
+        float: none;
+    }
+    
+        .campin {
+        background-image: url(../images/campin_phone.png);
+    }
+    .p-conne {
+        background-image: url(../images/p-conne_phone.png);
+    }
+    .picruis {
+        background-image: url(../images/picruis_phone.png);
+    }
+    .tihou {
+        background-image: url(../images/campin-tihou_phone.png);
+    }
+    .maru {
+        background-image: url(../images/campin-tihou_phone.png);
+    }
+    .account {
+        background-image: url(../images/account_phone.png);
+    }
+    .trimpathy {
+        background-image: url(../images/trimpathy_phone.png);
+    }
+
+
 }
 
 
 @media screen and (max-width: 767px) {
-
+    
     footer .footer-sp .widget_recent_entries a,
     footer .footer-sp .widget_archive a,
     footer .footer-sp .widget_categories a,
@@ -197,6 +375,7 @@
     }
 
     .fb-widget {
+        display: none;
         text-align: center;
         margin-bottom: 20px;
     }

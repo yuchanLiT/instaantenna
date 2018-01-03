@@ -255,11 +255,7 @@ span.scroll {
     float: left;
 }
 
-.logo {
-    margin: 0 20px 20px;
-}
-
-.btn {
+.btn1 {
     background-color: #fce38a;
     border: 1px solid #fce38a;
     padding: 5px 60px;
@@ -268,7 +264,11 @@ span.scroll {
     color: #000;
     font-family: "marugo";
     border-radius: 10px;
-}
+    display: inline-block;
+    }
+.btn2{
+        display: none;
+    }
 
 .right {
     float: left;
@@ -324,6 +324,66 @@ footer {
     height: 385px;
     background-color: #fce38a;
     color: #1E252C;
+}
+
+#pc_footer {
+        display: block;
+    }
+
+    .phone_footer {
+        display: none;
+    }
+
+.campin{
+    background-image: url(../images/campin_img1.png);
+}
+.campin img{
+    margin: 0 20px 20px;
+}
+
+.p-conne{
+    background-image: url(../images/p-conne_img2.png);
+}
+.p-conne img{
+    margin: 50px 20px
+}
+
+.picruis{
+    background-image: url(../images/picruis_img.png);
+}
+.picruis img{
+    margin: 40px 20px;
+}
+
+.tihou{
+    background-image: url(../images/campin-tihou_img1.png);
+}
+.tihou img{
+    margin: 40px 20px;
+}
+
+.maru{
+    background-image: url(../images/campin-tihou_img1.png);
+}
+.maru img{
+    margin: 40px 20px;
+}
+.right_maru{
+    width: 350px;
+}
+
+.account{
+    background-image: url(../images/account_img.png);
+}
+.account img{
+    margin: 30px 20px;
+}
+
+.trimpathy{
+    background-image: url(../images/trimpathy_img.png);
+}
+.trimpathy img{
+    margin: 30px 20px;
 }
 
 /*ここから*/
