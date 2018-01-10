@@ -223,6 +223,12 @@ span.scroll {
 .section {
     text-align: center;
     font-family: "marugo";
+    height: 700px;
+}
+
+.section1{
+    padding-top: 250px;
+    margin: 0 auto;
 }
 
 
@@ -319,7 +325,6 @@ span.scroll {
 
 footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: 385px;
     background-color: #fce38a;
