@@ -494,3 +494,26 @@ footer {
 }
 
 /*ここまでフッター*/
+
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: #fce38a;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
