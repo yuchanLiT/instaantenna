@@ -163,7 +163,7 @@ a {
 
 /*ここまでヘッダー*/
 
-a.scroll {
+div.scroll {
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -223,12 +223,13 @@ span.scroll {
 .section {
     text-align: center;
     font-family: "marugo";
-    height: 700px;
+    width: 100%;
 }
 
 .section1{
     padding-top: 250px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 
@@ -295,7 +296,10 @@ span.scroll {
 
 
 .section_wrraper {
-    display: inline-block;
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
 }
 
 .section2 {
@@ -303,7 +307,9 @@ span.scroll {
     width: 800px;
     height: 400px;
     background-size: cover;
-    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .filter {
@@ -358,6 +364,9 @@ footer {
 }
 .picruis img{
     margin: 40px 20px;
+}
+.right_pic{
+    width: 360px;
 }
 
 .tihou{

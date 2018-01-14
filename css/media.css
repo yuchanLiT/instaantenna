@@ -153,6 +153,7 @@
     .section1 {
         text-align: center;
         padding: 250px 0 200px;
+        height: auto;
     }
 
     .toptitle {
@@ -210,8 +211,13 @@
         width: 80%;
         margin: 0 auto;
     }
-
-
+    
+    .section_wrraper {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
     .section2 {
         display: inline-block;
         overflow: hidden;
@@ -219,6 +225,9 @@
         width: 75%;
         height: auto;
         margin-top: 70px;
+        position: static;
+        top: auto;
+        transform: none;
     }
 
     .filter {
